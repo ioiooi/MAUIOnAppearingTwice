@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+	x:Class="OnAppearing.AppShell"
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:OnAppearing"
+	FlyoutBehavior="Disabled">
+
+	<ShellContent ContentTemplate="{DataTemplate local:Page1}" Route="Page1" />
+	<ShellContent ContentTemplate="{DataTemplate local:Page2}" Route="Page2" />
+	<ShellContent ContentTemplate="{DataTemplate local:Page3}" Route="Page3" />
+
+</Shell>
